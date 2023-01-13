@@ -164,8 +164,23 @@ span{
     display: none;
 }
 
-
 @media only screen and (max-width:688px) {
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:688px) {
+    .ddd{
+    width: 100%;
+    }
+    .main-section{
+       width: 100%;
+    }
     
     .main-containar{
         width: 100%;
@@ -173,6 +188,10 @@ span{
         display: flex;
         justify-content: space-around;
       
+    }
+    hr{
+        width: 100%;
+        margin-left: 0;
     }
     .logo img{
          margin-top: 10px; 
@@ -193,15 +212,19 @@ span{
 @media only screen and (max-width:688px) {
     
     .main-section-title{
-        width: 300px;
+        width: 100%;
         text-align: center;
+        margin-left: 0;
+        padding-left: 0;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
     }
     .title{
-        width: 300px;
+        width: 100%;
         text-align: center;
+        margin-left:0;
+        padding-left: 0;
     }
     .blog-containar{
         grid-template-columns: repeat(1, 1fr);
