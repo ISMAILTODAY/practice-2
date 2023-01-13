@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 body{
     background-color: #F3F1FF;
@@ -11,6 +12,7 @@ body{
     justify-content: space-around;
     background-color: #562EFF;
     height: 80px;
+    
 }
 .logo{
   display: flex;
@@ -224,7 +226,7 @@ span{
         width: 100%;
         text-align: center;
         margin-left:0;
-        padding-left: 0;
+        padding: 0;
     }
     .blog-containar{
         grid-template-columns: repeat(1, 1fr);
@@ -234,8 +236,6 @@ span{
     }
     .player{
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
     }
     .main-section-title{
@@ -244,6 +244,7 @@ span{
 }
 @media only screen and (max-width:688px) {
     .course-containar{
+        width: 100%;
         grid-template-columns: repeat(1,1fr);
         margin-bottom: 30px;
     }
